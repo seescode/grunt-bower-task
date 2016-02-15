@@ -64,7 +64,7 @@ module.exports = function(grunt) {
     }).get();
   }
 
-  grunt.registerMultiTask('bower', 'Install Bower packages.', function() {
+  grunt.registerMultiTask('bower-task', 'Install Bower packages.', function() {
     var tasks = [],
       done = this.async(),
       options = this.options({
